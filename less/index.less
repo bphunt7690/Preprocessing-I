@@ -54,6 +54,39 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+
+	h1 {
+		font-size: 60px;
+
+		h3 {
+			font-size: 40px;
+		}
+	}
 }
 
+@primary-color: slategrey;
+
+header {
+    background-color: @primary-color;
+	color: darkblue;
+	
+		.image {
+			height: 50px;
+	
+
+    		h1 {
+        	font-size: 20px;
+    
+        		p {
+            	font-size: 3%;
+        	}
+		}
+	}
+}
+
+section {
+	background-color: @primary-color;
+	color: black;
+	display: flex;
+}
