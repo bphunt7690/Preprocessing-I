@@ -141,6 +141,10 @@ body h3 {
   font-size: 40px;
   color: coral;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+}
 header {
   color: coral;
   margin: 2%;
