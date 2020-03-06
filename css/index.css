@@ -133,7 +133,7 @@ table {
 html,
 body {
   height: 100%;
-  margin: 3% 10%;
+  margin: 2% 8%;
   background-color: slategrey;
 }
 html h3,
@@ -154,10 +154,8 @@ img {
 }
 section {
   color: black;
-  display: flex;
-  justify-content: space-around;
   width: 80%;
-  margin: 5%;
+  margin: 8%;
   text-align: center;
 }
 footer {
