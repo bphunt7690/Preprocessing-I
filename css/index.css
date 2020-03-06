@@ -139,9 +139,10 @@ body {
 html h3,
 body h3 {
   font-size: 40px;
+  color: coral;
 }
 header {
-  color: darkblue;
+  color: coral;
   margin: 2%;
   text-align: center;
 }
