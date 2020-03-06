@@ -58,6 +58,12 @@ table {
 .font-style () {
 	text-align: center;
 	font-family: courier;
+	font-size: 15px;
+}
+
+.img-size () {
+	width: 200px;
+	height: 200px;
 }
 
 html, body {
@@ -67,7 +73,7 @@ html, body {
 
 
 	h3 {
-		font-size: 40px;
+		font-size: 30px;
 		color: coral;
 	}
 }
@@ -75,6 +81,11 @@ html, body {
 nav {
 	display: flex;
 	justify-content: space-around;
+
+	@media (max-width: 500px) {
+		display: flex;
+		justify-content: column;
+	}
 }
 
 header {
@@ -83,21 +94,24 @@ header {
 		text-align: center;
 		
 			h1 {
-				font-size: 60px;
+				font-size: 50px;
 			}
 }
 
 img {
 	width: 300px;
 	height: 300px;
+
+	@media (max-width: 500px) {
+		.img-size();
+	}
 }
 
 section {
 	color: black;
 	width: 80%;
 	margin: 2% 8%;
-	font-style ();
-
+	.font-style ();
 }
 
 footer {

@@ -138,12 +138,18 @@ body {
 }
 html h3,
 body h3 {
-  font-size: 40px;
+  font-size: 30px;
   color: coral;
 }
 nav {
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: column;
+  }
 }
 header {
   color: coral;
@@ -151,11 +157,17 @@ header {
   text-align: center;
 }
 header h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 img {
   width: 300px;
   height: 300px;
+}
+@media (max-width: 500px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
 }
 section {
   color: black;
@@ -163,6 +175,7 @@ section {
   margin: 2% 8%;
   text-align: center;
   font-family: courier;
+  font-size: 15px;
 }
 footer {
   text-align: center;
