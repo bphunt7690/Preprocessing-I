@@ -160,11 +160,9 @@ img {
 section {
   color: black;
   width: 80%;
-  margin: 8%;
+  margin: 2% 8%;
   text-align: center;
 }
 footer {
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
